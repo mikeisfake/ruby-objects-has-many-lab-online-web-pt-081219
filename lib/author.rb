@@ -7,7 +7,7 @@ class Author
   end 
   
   def posts 
-    Post.self
+    Post.all.select {|post| post.name == }
   end 
 
 end 
