@@ -7,7 +7,7 @@ class Artist
   end 
   
   def songs 
-    @song.all
+    @song
   end 
   
 end
