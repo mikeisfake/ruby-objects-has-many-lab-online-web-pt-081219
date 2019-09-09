@@ -10,7 +10,8 @@ class Artist
   end 
   
   def songs 
-    @songs
+    song.all 
+    binding.pry 
   end 
   
   def add_song(song)
